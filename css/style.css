@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+button{
+    width: 256px;
+    height: 56px;
+    background-color: #0e8784;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #66d2cf;
+}
+button:disabled{
+    background-color: gray;
+}
